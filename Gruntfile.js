@@ -9,7 +9,7 @@ module.exports = function (grunt)
   var appConfig = {
         app: './app/src',
         dist: './app/dist',
-        vendor: './app/bower_components',
+        vendor: './app/vendor',
         tmp: './.tmp',
         release: grunt.template.today('yyyy_mm_dd_hh_MM_ss')
   };
