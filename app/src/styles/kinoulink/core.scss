@@ -1,0 +1,53 @@
+@import "../settings";
+
+body
+{
+  background:url(/img/features/features_bg.jpg);
+  color: $color_rangoon_green_approx;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+html, body, table
+{
+  height: 100%;
+}
+
+h1
+{
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  max-width: 800px;
+  width: 80%;
+  padding: 2%;
+  margin: auto;
+  font-weight: normal;
+  vertical-align:middle;
+  display:inline-block;
+
+  small
+  {
+    display: block;
+    margin-top: 2%;
+    color: #F0F0F0;
+  }
+}
+
+#connected
+{
+  background: url(/img/features/connected@2x.png) no-repeat;
+  background-size: 257px 254px;
+  width: 257px;
+  height: 254px;
+  display: inline-block;
+  margin-top: 10%;
+}
+
+table
+{
+  width: 100%;
+  text-align: center;
+}

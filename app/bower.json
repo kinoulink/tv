@@ -1,0 +1,12 @@
+{
+  "name": "kinoulink",
+  "version": "0.0.1",
+  "dependencies": {
+	"components-font-awesome": "master",
+	"bootstrap-sass-official" : "master"
+  },
+  "devDependencies": {
+
+  },
+  "appPath": "app"
+}

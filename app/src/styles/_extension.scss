@@ -1,0 +1,13 @@
+//original selectors
+//input[type="text"], input[type="email"], input[type="password"], textarea
+%extend_input {
+  display: inline-block;
+  padding: 10px 15px;
+  border: 1px solid $color_mercury_approx;
+  //Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+  border-radius: 5px;
+  font-size: .85em;
+  line-height: 1;
+  color: $color_fuscous_gray_approx;
+  appearance: none;
+}
